@@ -12,3 +12,7 @@
 .zippy-body {
     padding: 20px;
 }
+
+.expanded {
+    background: #f0f0f0;
+}
