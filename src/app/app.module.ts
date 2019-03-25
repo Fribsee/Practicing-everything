@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { StarComponent } from './star/star.component';
 import { TitleCaseComponent } from './title-case/title-case.component';
 import { TitleCasePipe } from './titlecase.pipe';
+import { HeartComponent } from './heart/heart.component';
+import { SampleDirectiveDirective } from './sample-directive.directive';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +16,9 @@ import { TitleCasePipe } from './titlecase.pipe';
     StarComponent,
     TitleCaseComponent,
     TitleCasePipe,
+    HeartComponent,
+    SampleDirectiveDirective,
+    ZippyComponent,
 
   ],
   imports: [
