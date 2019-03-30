@@ -9,6 +9,7 @@ import { TitleCasePipe } from './titlecase.pipe';
 import { HeartComponent } from './heart/heart.component';
 import { SampleDirectiveDirective } from './sample-directive.directive';
 import { ZippyComponent } from './zippy/zippy.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ZippyComponent } from './zippy/zippy.component';
     HeartComponent,
     SampleDirectiveDirective,
     ZippyComponent,
+    FormComponent,
 
   ],
   imports: [
