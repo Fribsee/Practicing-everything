@@ -11,10 +11,12 @@ import { SampleDirectiveDirective } from './sample-directive.directive';
 import { ZippyComponent } from './zippy/zippy.component';
 import { FormComponent } from './form/form.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+import { SignupFormComponent } from './signup-form/signup-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    SignupFormComponent,
     StarComponent,
     TitleCaseComponent,
     TitleCasePipe,
