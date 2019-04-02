@@ -10,6 +10,7 @@ import { HeartComponent } from './heart/heart.component';
 import { SampleDirectiveDirective } from './sample-directive.directive';
 import { ZippyComponent } from './zippy/zippy.component';
 import { FormComponent } from './form/form.component';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormComponent } from './form/form.component';
     SampleDirectiveDirective,
     ZippyComponent,
     FormComponent,
+    TemplateDrivenFormComponent,
 
   ],
   imports: [
