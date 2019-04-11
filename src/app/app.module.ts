@@ -12,6 +12,7 @@ import { ZippyComponent } from './zippy/zippy.component';
 import { FormComponent } from './form/form.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
+import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { SignupFormComponent } from './signup-form/signup-form.component';
     ZippyComponent,
     FormComponent,
     TemplateDrivenFormComponent,
+    NewCourseFormComponent,
 
   ],
   imports: [
