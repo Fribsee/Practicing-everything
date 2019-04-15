@@ -13,6 +13,7 @@ import { FormComponent } from './form/form.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
 import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
+import { PasswordformComponent } from './passwordform/passwordform.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { NewCourseFormComponent } from './new-course-form/new-course-form.compon
     FormComponent,
     TemplateDrivenFormComponent,
     NewCourseFormComponent,
+    PasswordformComponent,
 
   ],
   imports: [
